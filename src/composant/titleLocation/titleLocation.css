@@ -1,0 +1,17 @@
+@charset "UTF-8";
+.title-location {
+  text-align: left; /* Aligne le texte à gauche */
+  margin-bottom: 20px; /* Marge inférieure pour espacer du reste du contenu */
+}
+
+.title {
+  font-size: 24px; /* Taille de la police pour le titre */
+  font-weight: bold; /* Met le titre en gras */
+  margin: 0; /* Enlève les marges par défaut */
+}
+
+.location {
+  font-size: 18px; /* Taille de la police pour la localisation */
+  color: gray; /* Couleur de la police pour la localisation */
+  margin: 5px 0 0 0; /* Marge supérieure pour espacer du titre */
+}/*# sourceMappingURL=titleLocation.css.map */

@@ -1,0 +1,81 @@
+/*.header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}*/
+.header {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.header .logo_kasa {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  fill: black;
+}
+.header .navigation {
+  display: flex;
+  gap: 50px;
+}
+.header .navigation .link {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 142.6%;
+  text-decoration-line: none;
+  color: #ff6060;
+}
+.header .navigation .link:hover {
+  text-decoration-line: underline;
+}
+.header .navigation .active {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .logo_kasa {
+    width: 160px;
+    margin-bottom: 10px;
+  }
+  .header {
+    margin: 0 2rem;
+  }
+  .header .navigation .link {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .logo_kasa {
+    width: 100px;
+  }
+  .header {
+    margin: 0 2rem;
+  }
+  .header .navigation {
+    gap: 20px;
+  }
+  .header .navigation .link {
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+}
+@media screen and (max-width: 375px) {
+  .logo_kasa {
+    width: 100px;
+  }
+  .header {
+    gap: 20px;
+    margin: 0 2rem;
+  }
+  .header .navigation {
+    gap: 13px;
+  }
+  .header .navigation .link {
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=header.css.map */

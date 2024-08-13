@@ -1,0 +1,73 @@
+
+.cards {
+    background: #f6f6f6;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 3rem;
+    border-radius: 20px;
+    padding: 4rem 2rem;
+
+
+.card {    width: 26%;
+    height: 340px;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+}
+
+.contenaire_logement_photo_titre {
+    width: 340px;
+    height: 340px;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+}
+
+.contenaire_logement_photo_titre img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.contenaire_logement_titre {
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    color: white;
+    //text-align: center;
+    margin-left: 20px;
+    padding: 0.5rem 0;
+    box-sizing: border-box;
+}
+}
+
+@media screen and (max-width: 1200px) {
+    .contenaire_logement_photo_titre {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .contenaire_logement_photo_titre {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contenaire_logement_photo_titre {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .contenaire_logement_photo_titre {
+        width: 100%;
+        height: auto;
+    }
+}

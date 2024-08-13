@@ -1,0 +1,23 @@
+.accordeon {
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+.accordeon .accordeon_title {
+  background-color: #FF6060;
+  border-radius: 5px;
+  color: #FFFFFF;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.accordeon .accordeon_title .accordeon_icon {
+  transition: transform 0.3s ease;
+  color: #FFFFFF;
+}
+.accordeon .accordeon_content {
+  padding: 10px;
+  color: #000000;
+  background-color: rgba(246, 246, 246, 0.4509803922);
+}/*# sourceMappingURL=accordeon.css.map */

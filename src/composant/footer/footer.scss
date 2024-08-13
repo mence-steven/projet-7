@@ -1,0 +1,35 @@
+footer {
+    width: 100%;
+    padding: 5rem 0 2rem 0;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    img {
+        width: 122px;
+        height: 39.44px;    
+    }
+    p {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    footer {
+        width: 100%;
+        padding: 5rem 0 2rem 0;
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        img {
+            width: 122px;
+            height: 39.44px;    
+        }
+        p {
+            font-family: Montserrat;
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 17.11px;
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+
+main {
+    
+    padding: 0 5% 0 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contenaire_photo {
+    display: flex;
+    justify-content: center;
+}
+.photo {
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    width: 1024px;
+    height: 223px;
+    gap: 0px;
+    opacity: 0.3px;
+    margin: 5rem 0;
+    object-fit: cover;
+}
+
+.contenaire_accordeon {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}

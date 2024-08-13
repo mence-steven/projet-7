@@ -1,0 +1,36 @@
+
+.logement_container {
+    padding: 0 5% 0 5%;
+}
+
+.titre_profil {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .titre_tags{
+        display: flex;
+        flex-direction: column;
+        .title-location{
+            color: #FF6060;
+            font-size: 24px;
+            p {
+                color: #FF6060;
+                font-size: 24px;
+            }
+        }
+        .tags {
+            display: flex;
+        }
+    }
+}
+.groupes_accordeon {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    .accordeon {
+        width: 100%;
+    }
+    ul {
+        list-style: none;
+    }
+}

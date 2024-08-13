@@ -1,0 +1,14 @@
+.host {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.host img {
+  border-radius: 50%;
+}
+.host .host-name {
+  color: #FF6060;
+  font-size: 19px;
+}/*# sourceMappingURL=host.css.map */
