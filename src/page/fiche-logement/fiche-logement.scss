@@ -34,3 +34,49 @@
         list-style: none;
     }
 }
+
+@media screen and (max-width: 660px) {
+   .titre_profil{
+    flex-direction: column;
+    .titre_tags{
+        .title-location{
+            h1{
+                font-size: 20px;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+        .tags {
+            display: flex;
+            .tag {
+                font-size: 12px;
+                padding: 7px 7px;
+            }
+        }
+    }
+    .profil_note {
+        display: flex;
+        flex-direction: row-reverse;
+        .host{
+            img{
+            width: 40px;
+            }
+            .host-name{
+                font-size: 15px;
+            }
+
+        }
+        .star{
+            font-size: 18px;
+            gap: 1px;
+            margin-bottom: 1rem;
+            margin-right: 1rem;
+        }
+    }
+   }
+   .groupes_accordeon{
+    flex-direction: column;
+   }
+
+}

@@ -28,3 +28,9 @@ main {
     margin: 0 auto;
     margin-bottom: 2rem;
 }
+
+@media screen and (max-width: 660px) {
+    .contenaire_accordeon {
+        width: 100%;
+    }
+}

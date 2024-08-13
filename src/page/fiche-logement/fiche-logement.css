@@ -33,4 +33,42 @@
 }
 .groupes_accordeon ul {
   list-style: none;
+}
+
+@media screen and (max-width: 660px) {
+  .titre_profil {
+    flex-direction: column;
+  }
+  .titre_profil .titre_tags .title-location h1 {
+    font-size: 20px;
+  }
+  .titre_profil .titre_tags .title-location p {
+    font-size: 15px;
+  }
+  .titre_profil .titre_tags .tags {
+    display: flex;
+  }
+  .titre_profil .titre_tags .tags .tag {
+    font-size: 12px;
+    padding: 7px 7px;
+  }
+  .titre_profil .profil_note {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .titre_profil .profil_note .host img {
+    width: 40px;
+  }
+  .titre_profil .profil_note .host .host-name {
+    font-size: 15px;
+  }
+  .titre_profil .profil_note .star {
+    font-size: 18px;
+    gap: 1px;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+  }
+  .groupes_accordeon {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=fiche-logement.css.map */
