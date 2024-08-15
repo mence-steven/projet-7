@@ -58,35 +58,3 @@ function FicheLogement() {
 }
 
 export default FicheLogement;
-
-
-/*
-import React from "react";
-import Header from "../../composant/header/header";
-import Footer from "../../composant/footer/footer";
-import Carrousel from "../../composant/carrousel/carrousel";
-import Accordeon from "../../composant/accordeon/accordeon";
-import "./fiche-logement.scss";
-import { useParams } from "react-router-dom";
-import Appartement from "../../../data.json";
-
-function FicheLogement() {
-    const {id} = useParams()
-
-    function findAppartementById (id){
-        return Appartement?.find(appartement => appartement.id === id)
-    }
-    const logement = findAppartementById (id)
-    console.log(logement)
-    return (
-        <div>
-            <Header />
-            <h1>logements</h1>
-            <Carrousel />
-            <Accordeon title="" content="" />
-            <Footer />
-        </div>
-    );
-}
-export default FicheLogement;
-*/

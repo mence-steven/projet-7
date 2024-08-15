@@ -1,5 +1,4 @@
 import React from "react";
-//import { NavLink } from "react-router-dom";
 import logoFooter from "../../assets/logo-kasa-footer.png";
 import "./footer.scss";
 
